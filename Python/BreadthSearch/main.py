@@ -7,7 +7,7 @@ def find_shortest_road(graph, start, goal):
 
     while search_queue:
         current_city, distance = search_queue.popleft()
-        if current_city == goal:
+        if is_reached_goal(current_city, goal):
             return distance
         if current_city not in searched:
             searched.add(current_city)
