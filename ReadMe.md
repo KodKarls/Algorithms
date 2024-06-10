@@ -6,6 +6,7 @@
 Repozytorium to zawiera projekty powszechnie występujących i używanych na co dzień algorytmów.
 
 Każdy z algorytmów jest zaprezentowany w dwóch językach programowania:
+
 - C++
 - Python
 
@@ -21,6 +22,7 @@ budowy i uruchamiania.
 
 #### C++
 Do prawidłowego zbudowania i uruchomienia projektów niezbędny jest:
+
 - Kompilator C++: w projekcie używam GCC 13.1.0 https://winlibs.com/
 - CMake: projekty wykonane na wersji 3.28 https://cmake.org/
 
@@ -46,6 +48,7 @@ zgodnie ze sposobem budowania projektów C++ na tej platformie.
 This repository contains designs of common and everyday algorithms.
 
 Each algorithm is presented in two programming languages:
+
 - C++ 
 - Python
 
@@ -61,6 +64,7 @@ building and running.
 
 #### C++
 To properly build and run projects, you need:
+
 - C++ compiler: in project I use GCC 13.1.0 https://winlibs.com/
 - CMake: projects made on version 3.28 https://cmake.org/
 
