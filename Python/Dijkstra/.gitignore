@@ -1,0 +1,8 @@
+# Pycache folder
+__pycache__/
+
+# Virtual environment
+.venv/
+
+# IDE folder
+.idea/
