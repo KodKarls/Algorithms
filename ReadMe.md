@@ -38,6 +38,16 @@ RunScript.bat
 
 Oba skrypty znajdują się w folderze projektowym każdego z algorytmów.
 
+#### Python
+Do prawidłowego zbudowania i uruchomienia projektów niezbędny jest:
+
+- Python: w projekcie używam wersji 3.11.3 https://www.python.org/downloads/release/python-3113/
+
+W celu zbudowania i jednocześnie uruchomienia projektu należy uruchomić skrypt:
+```
+Run.bat
+```
+
 #### Linux
 Projekty nie posiadają skryptów uruchamiających i budujących dla Linuxa. Należy zbudować je ręcznie
 zgodnie ze sposobem budowania projektów C++ na tej platformie.
@@ -79,6 +89,16 @@ RunScript.bat
 ```
 
 Both scripts are located in the design folder of each algorithm.
+
+#### Python
+To properly build and run projects, you need:
+
+- Python: in project I use version 3.11.3 in the project https://www.python.org/downloads/release/python-3113/
+
+In order to build and run the project at the same time, run the script:
+```
+Run.bat
+```
 
 #### Linux
 The projects do not have run and build scripts for Linux. They must be built manually following the way 
