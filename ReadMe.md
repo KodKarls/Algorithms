@@ -5,8 +5,9 @@
 ### Opis
 Repozytorium to zawiera projekty powszechnie występujących i używanych na co dzień algorytmów.
 
-Każdy z algorytmów jest zaprezentowany w dwóch językach programowania:
+Każdy z algorytmów jest zaprezentowany w trzech językach programowania:
 
+- C
 - C++
 - Python
 
@@ -16,14 +17,14 @@ przypada oddzielny projekt.
 ### Sposób uruchamiania
 
 #### Windows
-Z uwagi na fakt, że projekty tworzonne są w dwóch różnych językach programowania, a jednoczśnie nie zawsze
+Z uwagi na fakt, że projekty tworzonne są w trzech różnych językach programowania, a jednoczśnie nie zawsze
 potrzebujemy wszystkich algorymów, każdy z poszczególnych folderów projektowych ma swoje własne skrypty do 
 budowy i uruchamiania.
 
-#### C++
+#### C/C++
 Do prawidłowego zbudowania i uruchomienia projektów niezbędny jest:
 
-- Kompilator C++: w projekcie używam GCC 13.1.0 https://winlibs.com/
+- Kompilator C/C++: w projekcie używam GCC 13.1.0 https://winlibs.com/
 - CMake: projekty wykonane na wersji 3.28 https://cmake.org/
 
 W celu zbudowania dowolnego projektu należy uruchomić skrypt:
@@ -50,15 +51,16 @@ Run.bat
 
 #### Linux
 Projekty nie posiadają skryptów uruchamiających i budujących dla Linuxa. Należy zbudować je ręcznie
-zgodnie ze sposobem budowania projektów C++ na tej platformie.
+zgodnie ze sposobem budowania projektów C/C++ na tej platformie.
 
 ## ENGLISH
 
 ### Description
 This repository contains designs of common and everyday algorithms.
 
-Each algorithm is presented in two programming languages:
+Each algorithm is presented in three programming languages:
 
+- C
 - C++ 
 - Python
 
@@ -68,14 +70,14 @@ there is a separate project.
 ### How to run
 
 #### Windows
-Due to the fact that projects are created in two different programming languages, and at the same time we
+Due to the fact that projects are created in three different programming languages, and at the same time we
 not always need all the algorithms, each of the individual project folders has its own scripts for
 building and running.
 
-#### C++
+#### C/C++
 To properly build and run projects, you need:
 
-- C++ compiler: in project I use GCC 13.1.0 https://winlibs.com/
+- C/C++ compiler: in project I use GCC 13.1.0 https://winlibs.com/
 - CMake: projects made on version 3.28 https://cmake.org/
 
 To build any project, you must run a script:
@@ -102,4 +104,4 @@ Run.bat
 
 #### Linux
 The projects do not have run and build scripts for Linux. They must be built manually following the way 
-C++ projects are built on this platform.
+C/C++ projects are built on this platform.
