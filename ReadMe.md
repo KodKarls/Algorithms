@@ -1,5 +1,15 @@
 # README
 
+# Stan obecny
+
+W chwili obecnej projekt jest ciągle rozwijany. Najnowsze wersje algorytmów można znaleźć
+na gałęzi develop.
+
+# Current state
+
+Currently, the project is constantly being developed. The latest versions of the algorithms can be found
+on the develop branch.
+
 ## POLSKI
 
 ### Opis
