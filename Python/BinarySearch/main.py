@@ -1,23 +1,10 @@
-def binary_search(array, target):
-    start = 0
-    end = len(array) - 1
-
-    while start <= end:
-        middle = (start + end) // 2
-        result = array[middle]
-        if result == target:
-            return middle
-        elif result < target:
-            start = middle + 1
-        else:
-            end = middle - 1
-
-    return None
+from binary_search import binary_search
+from input_handler import get_number_input
 
 
 if __name__ == '__main__':
-    numbers = [i for i in range(1, 10_000_000)]
-    search_number = int(input('Enter the number to search: '))
+    numbers = [12, 15, 17, 20, 24, 27, 31, 38, 42, 49, 55, 58, 63, 68, 76, 79, 84, 87, 93, 95]
+    search_number = get_number_input('Enter the number to search: ')
 
     index = binary_search(numbers, search_number)
 
